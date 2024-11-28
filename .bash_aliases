@@ -1,4 +1,5 @@
 set -o vi
+bind -m vi-insert "\C-l":clear-screen
 export CLICOLOR=1
 alias ls='ls -G'
 alias la='ls -Ga'
